@@ -1,0 +1,4 @@
+(version 1)
+(rule "dovol_prechod_cez_okraj"
+    (condition "A.Type == 'Track'")
+    (constraint edge_clearance (min -10mm)))
